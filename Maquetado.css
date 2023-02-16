@@ -1,0 +1,15 @@
+header {
+  background-color: cadetblue;
+  font-variant: small-caps;
+  
+}
+div {
+  background-color: chocolate;
+  width: 120px;
+  height: 150px;
+  margin-left: 0.5cm;
+}
+img {
+  margin-left: 0.3cm;
+  margin-top: 0.2cm;
+}

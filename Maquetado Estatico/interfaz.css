@@ -1,0 +1,114 @@
+#Comentario {
+  resize: none;
+}
+body {
+  background-color: black;
+}
+h1 {
+  text-align: center;
+}
+#nombre {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#Contacto {
+  border: 0.1cm solid coral;
+}
+#container2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#slide1 h3 {
+  color: chartreuse;
+}
+#slide2 h3 {
+  color: gold;
+}
+#slide3 h3 {
+  color: teal;
+}
+#slide4 h3 {
+  color: crimson;
+}
+#slide4 img {
+  border: 0.1cm solid;
+  padding: 0.3cm;
+}
+header {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+footer {
+  color: white;
+}
+ul,
+li {
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+}
+ul.slider {
+  position: relative;
+  width: auto;
+  height: 300px;
+}
+ul.slider li {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  width: inherit;
+  height: inherit;
+  background-color: black;
+  transition: opacity 0.5s;
+}
+ul.slider li:first-child {
+  opacity: 0;
+}
+ul.slider li:target {
+  opacity: 1;
+}
+.menu {
+  text-align: center;
+  margin: 20px;
+}
+.menu li {
+  display: inline-block;
+  text-align: center;
+}
+.menu li a {
+  color: white;
+  text-decoration: none;
+  background-color: green;
+  padding: 10px;
+  width: 15px;
+  height: 15px;
+  font-size: 215x;
+  border-radius: 100%;
+}
+#container3 h2 {
+  text-align: center;
+}
+#slide4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#lenguajes{
+  color: white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2cm;
+  margin-bottom: 2cm;
+}
+
+img{
+  border: 0.1cm solid blueviolet;
+  background-color: white;
+  padding: 0.2cm;
+  margin: .3cm;
+}
